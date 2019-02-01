@@ -1,0 +1,25 @@
+17:01:45.640867 == Info: Rebuilt URL to: github.com/
+17:01:45.641793 == Info:   Trying 192.30.253.113...
+17:01:45.641805 == Info: TCP_NODELAY set
+17:01:45.643592 == Info: Connected to github.com (192.30.253.113) port 80 (#0)
+17:01:45.643625 => Send header, 74 bytes (0x4a)
+0000: GET / HTTP/1.1
+0010: Host: github.com
+0022: User-Agent: curl/7.61.0
+003b: Accept: */*
+0048: 
+17:01:46.155034 <= Recv header, 32 bytes (0x20)
+0000: HTTP/1.1 301 Moved Permanently
+17:01:46.155130 <= Recv header, 31 bytes (0x1f)
+0000: Location: https://github.com/
+17:01:46.155162 <= Recv header, 19 bytes (0x13)
+0000: Content-length: 0
+17:01:46.155186 <= Recv header, 24 bytes (0x18)
+0000: Connection: Keep-Alive
+17:01:46.155210 <= Recv header, 8 bytes (0x8)
+0000: Age: 0
+17:01:46.155231 <= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 01 Feb 2019 12:01:47 GMT
+17:01:46.155258 <= Recv header, 2 bytes (0x2)
+0000: 
+17:01:46.155296 == Info: Connection #0 to host github.com left intact
